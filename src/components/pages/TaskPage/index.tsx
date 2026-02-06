@@ -2,7 +2,7 @@
 
 import { useParams } from 'next/navigation';
 import { getTaskById } from '@/src/data/tasks';
-import { TasksListPage } from '@/src/components';
+import { TasksListPage, ComponentWithModals } from '@/src/components';
 import Link from 'next/link';
 import styles from './TaskPage.module.scss';
 
@@ -24,6 +24,8 @@ export const TaskPage = () => {
     switch (task.component) {
       case 'TasksListPage':
         return <TasksListPage />;
+      case 'ComponentWithModals':
+        return <ComponentWithModals />;
       default:
         return <div>Компонент не найден</div>;
     }
