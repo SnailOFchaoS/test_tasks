@@ -25,8 +25,15 @@ export const tasks: TaskData[] = [
 		id: 'stopwatch',
 		title: 'Сделать страницу с секундомером: закуск, пауза, сброс',
 		description: 'Сделать страницу с секундомером: запуск, пауза, сброс, отображение времени в формате MM:SS или HH:MM:SS.',
-		status: 'in-progress',
+		status: 'completed',
 		component: 'Stopwatch'
+	},
+	{
+		id: 'react-redux',
+		title: 'React Redux',
+		description: 'Создать приложение с использованием React Redux для управления состоянием приложения.',
+		status: 'in-progress',
+		component: 'ReactRedux'
 	}
 ];
 
