@@ -18,8 +18,15 @@ export const tasks: TaskData[] = [
 		id: 'component-with-modals',
 		title: 'Переиспользуемый компонент модального окна с формой',
 		description: 'Создать переиспользуемый компонент модального окна и использовать его для формы создания пользователя.',
-		status: 'in-progress',
+		status: 'completed',
 		component: 'ComponentWithModals'
+	},
+	{
+		id: 'stopwatch',
+		title: 'Сделать страницу с секундомером: закуск, пауза, сброс',
+		description: 'Сделать страницу с секундомером: запуск, пауза, сброс, отображение времени в формате MM:SS или HH:MM:SS.',
+		status: 'in-progress',
+		component: 'Stopwatch'
 	}
 ];
 
