@@ -12,6 +12,12 @@
 		border: 1px solid #000;
 		border-radius: 5px;
 		padding: 10px;
+	}
+
+	.addButton {
+		padding: 10px 20px;
+		border: 1px solid #000;
+		background: transparent;
 		cursor: pointer;
 		&:hover {
 			background-color: #f0f0f0;
