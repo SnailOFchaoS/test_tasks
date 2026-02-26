@@ -1,0 +1,20 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+	.productItem {
+		display: flex;
+		flex-direction: row;
+		gap: 10px;
+		align-items: center;
+		justify-content: space-between;
+		border: 1px solid #000;
+		border-radius: 5px;
+		padding: 10px;
+		cursor: pointer;
+		&:hover {
+			background-color: #f0f0f0;
+		}
+	}
+}
