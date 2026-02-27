@@ -5,3 +5,4 @@ export * from './ComponentWithModals';
 export * from './Stopwatch';
 export * from './ReactRedux';
 export * from './ShopRedux';
+export * from './UsersRedux';

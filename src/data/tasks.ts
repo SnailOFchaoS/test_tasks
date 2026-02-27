@@ -39,8 +39,15 @@ export const tasks: TaskData[] = [
 		id: 'shop-redux',
 		title: 'Shop Redux',
 		description: 'Создать приложение с использованием React Redux для управления состоянием приложения.',
-		status: 'in-progress',
+		status: 'completed',
 		component: 'ShopRedux'
+	},
+	{
+		id: 'users-redux',
+		title: 'Users Redux',
+		description: 'Создать приложение с использованием React Redux для управления состоянием приложения.',
+		status: 'in-progress',
+		component: 'UsersRedux'
 	}
 ];
 

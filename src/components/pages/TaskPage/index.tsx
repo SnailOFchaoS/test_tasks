@@ -2,7 +2,14 @@
 
 import { useParams } from 'next/navigation';
 import { getTaskById } from '@/src/data/tasks';
-import { TasksListPage, ComponentWithModals, Stopwatch, ReactRedux, ShopRedux } from '@/src/components';
+import { 
+  TasksListPage, 
+  ComponentWithModals, 
+  Stopwatch, 
+  ReactRedux, 
+  ShopRedux,
+  UsersRedux
+} from '@/src/components';
 import Link from 'next/link';
 import styles from './TaskPage.module.scss';
 
@@ -32,6 +39,8 @@ export const TaskPage = () => {
         return <ReactRedux />;
       case 'ShopRedux':
         return <ShopRedux />;
+      case 'UsersRedux':
+        return <UsersRedux />;
       default:
         return <div>Компонент не найден</div>;
     }
